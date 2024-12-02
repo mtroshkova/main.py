@@ -5,7 +5,9 @@ print(my_dict.get('ksusha','Такого человечка нет'))
 my_dict.update({'lenka':2006,
                  'inga':2001})
 print(my_dict)
-my_dict.pop('masha')
+print(my_dict.pop('masha'))
+# или a=my_dict.pop('masha')
+#prnt(a)
 print(my_dict)
 
 my_set={13,2,'perm',14,2,'svet'}
