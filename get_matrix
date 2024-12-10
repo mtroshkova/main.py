@@ -1,0 +1,16 @@
+def get_matrix (n, m, value):
+    matrix = []
+    #for i in range(n):
+    #print(value)
+    #return win
+    for i in range(n):
+        pro=[]
+        for j in range(m):
+            pro.append(value)
+        matrix.append(pro)
+    return matrix
+value = int(input('Введите число: '))
+n=int(input('Ваше число будет повторяться столько строк: '))
+m=int(input('Ваше число будет повторяться столько столбцов: '))
+r=get_matrix (n, m, value)
+print(r)
